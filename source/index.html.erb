@@ -1,7 +1,31 @@
----
-title: Middleman template with webpack
----
+<div class="wrapper">
+  <div class="presentation">
+    <div class="img">
+      <%= image_tag "bapt.jpg", class:"img-circle" %>
+    </div>
+    <div class="name">
+      Baptiste Chebassier
+    </div>
+  </div>
 
-<h1>
-  <span id="banner-typed-text"></span>
-</h1>
+  <div class="card-container">
+    <div class="row">
+      <div class="card">
+        <div class="card-picture" style="background-image: url('../images/IMG_1816.jpg');">
+          <%= link_to "", "californie.html", class: "card-link" %>
+          mike
+        </div>
+      </div>
+      <img src="https://unsplash.com/photos/JjDqyWuWZyU" alt="">
+
+      <div class="card" style="background-image: url('https://unsplash.com/photos/mzNpcEbVRtc');">
+        <%= link_to "", "radeau.html", class: "card-link" %>
+        dave
+      </div>
+      <div class="card" style="background-image: url('https://unsplash.com/photos/mzNpcEbVRtc');">
+        <%= link_to "", "autostop.html", class: "card-link" %>
+        john
+      </div>
+    </div>
+  </div>
+</div>

@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 function loadDynamicBannerText() {
   new Typed('#banner-typed-text', {
-    strings: ["Middleman is ready", "Webpack too"],
+    strings: ["Hello ", "Nice to meet you !"],
     typeSpeed: 50,
     loop: true
   });

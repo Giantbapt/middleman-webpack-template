@@ -1,0 +1,20 @@
+.navbar {
+  height: 70px;
+  width: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.navbar-item {
+  height: 100%;
+  width: 100%;
+
+}
+.content {
+  height: calc(100vh-70px);
+  width: 100vh;
+}
